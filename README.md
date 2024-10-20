@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# 🌿 Plant Shop - Product Listing
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple **Plant Shop** app built with **React.js**. The app allows users to view products, interact with a popup for adding items to the cart, and get redirected to a "Thank You" page.
 
-## Available Scripts
+## 🛠️ Implementation Overview
+## 📋 Features
 
-In the project directory, you can run:
+- **Product Listing**: Displays plants with images, names, and prices.
+- **Product Rating**: Each product includes a rating feature using star icons.
+- **View Product**: Redirects to a "Thank You" page upon viewing a product.
+- **Add to Cart Modal**: Popup modal to confirm adding a product to the cart.
+- **Home Redirect**: Users can return to the home page from the "Thank You" page.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### View Product and Redirection to "Thank You" Page
+When the user clicks on the **View Product** button:
+- The app programmatically redirects to a "Thank You" page using **React Router**.
+- The "Thank You" page includes the name of the viewed product, passed as a parameter in the URL.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Add to Cart Modal
+Clicking the **Add to Cart** button opens a popup modal. The modal is implemented using **reactjs-popup**, allowing users to confirm their choice and close the modal when finished.
 
-### `npm test`
+### Home Redirect
+The user can navigate between the main product listing page (home) and the "Thank You" page. Clicking "View Product" redirects the user to the "Thank You" page, and they can return to the home page easily.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🏆 Challenges Faced
 
-### `npm run build`
+While implementing this project, I initially tried using **React Bootstrap Modal** for the "Add to Cart" functionality. However, it did not give the expected result in terms of design and behavior. As a result, I switched to **reactjs-popup**, which provided a cleaner, more flexible solution for handling modals.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Getting Started
 
-### `npm run eject`
+Follow these steps to set up the project locally:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/plant-shop.git
