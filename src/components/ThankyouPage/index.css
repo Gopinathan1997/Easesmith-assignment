@@ -1,0 +1,25 @@
+.thankyou-container{
+    display: flex;
+}
+.thankyou-content{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.thankyou-image{
+    height: 50vh;
+    
+}
+.image-container{
+    width: 50vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.colour{
+    color: blue;
+}

@@ -1,0 +1,73 @@
+.modal-container {
+  height: 70vh;
+  padding: 2% 7%;
+}
+.cart-head-container {
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 80%;
+}
+
+.your-cart {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #0f4811;
+}
+/* Congratulations Order Placed! */
+.congrats-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #165315;
+}
+/* plant 1 */
+.plant1 {
+  position: absolute;
+  width: 97px;
+  height: 98px;
+  left: calc(50% - 97px / 2);
+  top: 271px;
+}
+.image {
+  height: 10vh;
+}
+
+hr {
+  border: 0.8px solid #b0b0b0;
+  width: 100%;
+}
+
+.thank-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #165315;
+}
+.cart-button-container {
+  background: #165315;
+}
+.cart-button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: 0px solid;
+  cursor: pointer;
+}

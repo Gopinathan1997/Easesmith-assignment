@@ -1,0 +1,27 @@
+.offer {
+  background-color: green;
+  color: white;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  height: 3%;
+}
+.price {
+  align-self: center;
+}
+.contact {
+  align-self: flex-end;
+}
+.search-plant {
+  height: 20px;
+}
+input {
+  border: none;
+  font-size: 16px;
+}
+.Search-container {
+  border-bottom: 1px solid #000;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
